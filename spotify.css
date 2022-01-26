@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+body{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    background-color: #96f0b6;
+}
+
+.header{
+    background-color: black;
+    height: 70px;
+}
+
+.header img{
+    width: 132px;
+}
+
+.header .ul {
+    margin-left: 150px;
+}
+.header-div{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.header-ul{
+    display: inline-block;
+}
+
+.header  .ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 400px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+
+a{
+    color: white;
+    margin-left: 50px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-bottom: 150px;
+}
+
+.mid{
+    height: 700px;
+}
+p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+.mid-1{
+    padding-top: 10px;
+    padding-left: 15%;
+    color: #202f72;
+    font-weight: 800;
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+}
+button{
+    padding: 15px 32px;
+    border-radius: 40px;
+    color: #96f0b6;
+    background-color:#202f72;
+    border: 0px;
+}
+.mid-2{
+    display: inline-block;
+}
+
+.mid-2 img{
+    margin-left: 100px;
+    margin-top: 80px;
+    height: 400px;
+    width: 400px;
+}
+a:hover { 
+    color: rgb(120, 199, 120);
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #000;
+    padding: 30px 0;
+	height: 300px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.footer-col h4{
+    color: #919496;
+    text-transform: capitalize;
+    font-size: 12px;
+    position: relative;
+    font-weight: 900;
+    line-height: 1.4;
+    text-transform: uppercase;
+    padding-left: 90px;
+    
+}
+
+.footer-image img{
+    height: 100px;
+    width: 150px;
+}
+.footer-col ul{
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+    margin-left: 40px;
+    font-size: 10px;
+
+	
+}
+
+
+.footer-col .social-links a{
+    
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 30px;
+	color: white;
+}
+.social-links a:hover{
+	color: rgb(120, 199, 120);
+}
+.social-links{
+    margin-left: 50px;
+}
